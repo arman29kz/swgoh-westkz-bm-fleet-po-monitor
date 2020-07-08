@@ -31,7 +31,7 @@
   },
   {
     "Name": "Camarosteve94",
-    "Flag": ":flag_us:",
+    "Flag": ":pirate_flag:",
     "SWGOH": "<https://swgoh.gg/p/482712461/>",
     "UTC": "23:00"
   },
@@ -54,18 +54,6 @@
     "UTC": "12:00"
   },
   {
-    "Name": "DeadBandit",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/632565279/>",
-    "UTC": "1:00"
-  },
-  {
-    "Name": "Garm Bel Iblis",
-    "Flag": ":flag_de:",
-    "SWGOH": "<https://swgoh.gg/p/762841814/>",
-    "UTC": "18:00"
-  },
-  {
     "Name": "GG3gotHate",
     "Flag": ":pirate_flag:",
     "SWGOH": "<https://swgoh.gg/p/825783663/>",
@@ -78,25 +66,19 @@
     "UTC": "15:00"
   },
   {
+    "Name": "Guigui",
+    "Flag": ":pirate_flag:",
+    "SWGOH": "<https://swgoh.gg/p/949644788/>",
+    "UTC": "17:00"
+  },
+  {
     "Name": "Hankestein",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/729385641/>",
     "UTC": "1:00"
   },
   {
-    "Name": "HopelessNoob",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/887273859/>",
-    "UTC": "0:00"
-  },
-  {
-    "Name": "musi1kanobi",
-    "Flag": ":pirate_flag:",
-    "SWGOH": "<https://swgoh.gg/p/337863486/>",
-    "UTC": "23:00"
-  },
-  {
-    "Name": "Oberon Calad",
+    "Name": "Oberon 99XJZ",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/237769766/>",
     "UTC": "23:00"
@@ -106,12 +88,6 @@
     "Flag": ":flag_ru:",
     "SWGOH": "<https://swgoh.gg/p/843141573/>",
     "UTC": "16:00"
-  },
-  {
-    "Name": "Passive Aggressor",
-    "Flag": ":pirate_flag:",
-    "SWGOH": "<https://swgoh.gg/p/432756991/>",
-    "UTC": "2:00"
   },
   {
     "Name": "Psparrowdactyl",
@@ -124,12 +100,6 @@
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/945565584/>",
     "UTC": "21:00"
-  },
-  {
-    "Name": "Ru9ert",
-    "Flag": ":pirate_flag:",
-    "SWGOH": "<https://swgoh.gg/p/693142881/>",
-    "UTC": "9:00"
   },
   {
     "Name": "shootemup",
@@ -156,6 +126,12 @@
     "UTC": "2:00"
   },
   {
+    "Name": "steubel",
+    "Flag": ":pirate_flag:",
+    "SWGOH": "<https://swgoh.gg/p/134164139/>",
+    "UTC": "16:00"
+  },
+  {
     "Name": "Unmanageable",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/736412154/>",
@@ -166,11 +142,5 @@
     "Flag": ":pirate_flag:",
     "SWGOH": "<https://swgoh.gg/p/264484858/>",
     "UTC": "23:00"
-  },
-  {
-    "Name": "Zalandas Gosular",
-    "Flag": ":flag_fr:",
-    "SWGOH": "<https://swgoh.gg/p/575978476/>",
-    "UTC": "16:00"
   }
 ]
