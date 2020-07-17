@@ -147,8 +147,14 @@ async function sendMessage () {
       fieldText += `${mate.flag} [${mate.name}](${mate.swgoh})\n`; // Discord automatically trims messages
     }
     embed.addField(fieldName, fieldText, true);
-    {name: 'Inline field title', value: 'Some value here', inline: true };
-  }  
+    embed.addField('Inline field title', 'Some value here', true);
+  }
+  embed.addFields(
+		{ name: 'Regular field title', value: 'Some value here' },
+		{ name: '\u200B', value: '\u200B' },
+		{ name: 'Inline field title', value: 'Some value here', inline: true },
+		{ name: 'Inline field title', value: 'Some value here', inline: true },
+	)  
   embed.setDescription(desc);  
   embed.setFooter('Last refresh', 'https://swgoh.gg/game-asset/u/CHOPPERS3/');
   embed.setTimestamp();
