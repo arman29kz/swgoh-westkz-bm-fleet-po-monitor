@@ -148,6 +148,12 @@ async function sendMessage () {
     }
     embed.addField(fieldName, fieldText, true);    
   }
+  embed.addFields(
+		{ name: 'Regular field title test1', value: 'Some value here' },
+		{ name: '\u200B', value: '\u200B' },
+		{ name: 'Inline field title test2', value: 'Some value here', inline: true },
+		{ name: 'Inline field title test3', value: 'Some value here', inline: true },
+	);
   embed.setDescription(desc);  
   embed.setFooter('Last refresh', 'https://swgoh.gg/game-asset/u/CHOPPERS3/');
   embed.setTimestamp();
