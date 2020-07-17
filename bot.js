@@ -138,7 +138,7 @@ function calculateSecondsUntilPayout () {
 
 async function sendMessage () {
   let embed = new Discord.RichEmbed();  
-  embed.setTitle('Fleet PO Monitor. Updates every 2 min. Next in:');
+  embed.setTitle('Fleet PO Monitor. Updates every 1 min. Next in:');
   let desc = 'Changed PO time? Pls contact to <@443487478091874324>.  Thnx';
   for (let i in mates) {    
     let fieldName = String(mates[i].time) + " - (UTC " + String(mates[i].po.hours).padStart(2, '00') + ":" + String(mates[i].po.minutes).padStart(2, '00') + ")";
@@ -146,7 +146,8 @@ async function sendMessage () {
     for (const mate of mates[i].mates) {
       fieldText += `${mate.flag} [${mate.name}](${mate.swgoh})\n`; // Discord automatically trims messages
     }
-    embed.addField(fieldName, fieldText, true);    
+    embed.addField(fieldName, fieldText, true);
+    {name: 'Inline field title', value: 'Some value here', inline: true };
   }  
   embed.setDescription(desc);  
   embed.setFooter('Last refresh', 'https://swgoh.gg/game-asset/u/CHOPPERS3/');
