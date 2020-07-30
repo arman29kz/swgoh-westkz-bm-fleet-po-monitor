@@ -21,8 +21,8 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
-}, 60000);
+  http.get(`https://${process.env.appDomain}.herokuapp.com/`);
+}, 60000); // every 1 minute (60000)
 
 // Initialize the bot
 client.on("ready", async () => {
