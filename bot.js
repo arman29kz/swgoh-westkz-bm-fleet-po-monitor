@@ -140,7 +140,7 @@ async function sendMessage () {
   let embed = new Discord.RichEmbed();
   embed.setTitle('Fleet PO Monitor. Updates every 1 minute. Next in:');
   embed.setDescription('Changed PO time? DM/tag <@443487478091874324> to update' + '\n' +
-      'Please support me on [Patreon](https://www.patreon.com/bmbots) | [Bot](https://statuspage.freshping.io/46240-WestKZBMFleetPOMonitor/check/423587) live status');
+      'Please support me on [Patreon](https://www.patreon.com/bmbots) | [Bot](https://www.nixstats.com/report/5f21c98c997820301d4213bc?m=5e92ea64b17639391d37ab93) live status');
   for (let i in mates) {
     let fieldName = String(mates[i].time) + " - (UTC " + String(mates[i].po.hours).padStart(2, '00') + ":" + String(mates[i].po.minutes).padStart(2, '00') + ")";
     let fieldText = '';
