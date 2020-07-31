@@ -139,7 +139,7 @@ function calculateSecondsUntilPayout () {
 async function sendMessage () {
   let embed = new Discord.RichEmbed();
   embed.setTitle('Fleet PO Monitor. Updates every 1 minute. Next in:');
-  embed.setDescription('Changed PO time? Contact <@443487478091874324> for update' + '\n' + '[Patreon support and donation](https://www.patreon.com/bmbots) | [Bot status](https://www.nixstats.com/report/5f21c98c997820301d4213bc?m=5e92ea64b17639391d37ab93)');
+  embed.setDescription('Changed PO time? DM/tag <@443487478091874324> to update' + '\n' + '[Support me on Patreon](https://www.patreon.com/bmbots) | [Bot live status](https://statuspage.freshping.io/46240-WestKZBMFleetPOMonitor/check/423587)');
   for (let i in mates) {
     let fieldName = String(mates[i].time) + " - (UTC " + String(mates[i].po.hours).padStart(2, '00') + ":" + String(mates[i].po.minutes).padStart(2, '00') + ")";
     let fieldText = '';
