@@ -138,8 +138,8 @@ function calculateSecondsUntilPayout () {
 
 async function sendMessage () {
   let embed = new Discord.RichEmbed();
-  embed.setAuthor('You can support me on Patreon', 'https://swgoh.gg/game-asset/u/CHOPPERS3/', 'https://www.patreon.com/bmbots')
-  embed.setTitle('Fleet PO Monitor. Updates every 1 min. Next in:');
+  embed.setAuthor('Fleet Payout Monitor. Updates every 1 minute')
+  embed.setTitle('[For Patreon support and donations](https://www.patreon.com/bmbots) | [Bot Status](https://www.nixstats.com/report/5f21c98c997820301d4213bc?m=5e92ea64b17639391d37ab93)');
   embed.setDescription('Changed PO time? Pls contact to <@443487478091874324>.  Thnx');
   for (let i in mates) {
     let fieldName = String(mates[i].time) + " - (UTC " + String(mates[i].po.hours).padStart(2, '00') + ":" + String(mates[i].po.minutes).padStart(2, '00') + ")";
