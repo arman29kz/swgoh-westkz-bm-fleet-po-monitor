@@ -21,7 +21,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`http://${process.env.appDomain}.herokuapp.com/`);
+  http.get(`http://${process.env.appDomain}/`);
 }, 60000); // every 1 minute (60000)
 
 // Initialize the bot
