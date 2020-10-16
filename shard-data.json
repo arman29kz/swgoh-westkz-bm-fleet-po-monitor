@@ -12,12 +12,6 @@
     "UTC": "23:00"
   },  
   {
-    "Name": "BBQ Beru",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/637377991/>",
-    "UTC": "0:00"
-  },  
-  {
     "Name": "BrutalMagicianKZ",
     "Flag": ":flag_kz:",
     "SWGOH": "<https://swgoh.gg/p/494881567/>",
@@ -28,12 +22,6 @@
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/238365954/>",
     "UTC": "22:00"
-  },
-  {
-    "Name": "Camarosteve94",
-    "Flag": ":pirate_flag:",
-    "SWGOH": "<https://swgoh.gg/p/482712461/>",
-    "UTC": "23:00"
   },
   {
     "Name": "Crivoj",
@@ -99,7 +87,7 @@
     "Name": "Psparrowdactyl",
     "Flag": ":flag_se:",
     "SWGOH": "<https://swgoh.gg/p/739958626/>",
-    "UTC": "23:00"
+    "UTC": "00:00"
   },
   {
     "Name": "Red1",
