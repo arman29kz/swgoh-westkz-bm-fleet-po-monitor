@@ -84,6 +84,12 @@
     "UTC": "18:00"
   },
   {
+    "Name": "Hackyum",
+    "Flag": ":flag_us:",
+    "SWGOH": "<https://swgoh.gg/p/264484858/>",
+    "UTC": "22:00"
+  },
+  {
     "Name": "Hankestein",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/729385641/>",
@@ -154,11 +160,5 @@
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/736412154/>",
     "UTC": "3:00"
-  },
-  {
-    "Name": "yurky",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/264484858/>",
-    "UTC": "22:00"
   }
 ]
