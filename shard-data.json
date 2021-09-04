@@ -114,12 +114,6 @@
     "UTC": "23:00"
   },
   {
-    "Name": "Oberon 99XJZ",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/237769766/>",
-    "UTC": "23:00"
-  },
-  {
     "Name": "Psparrowdactyl",
     "Flag": ":flag_se:",
     "SWGOH": "<https://swgoh.gg/p/739958626/>",
@@ -154,11 +148,5 @@
     "Flag": ":pirate_flag:",
     "SWGOH": "<https://swgoh.gg/p/134164139/>",
     "UTC": "17:00"
-  },
-  {
-    "Name": "Unmanageable",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/736412154/>",
-    "UTC": "3:00"
   }
 ]
