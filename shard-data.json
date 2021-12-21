@@ -60,6 +60,12 @@
     "UTC": "12:00"
   },
   {
+    "Name": "DrunkenMаster",
+    "Flag": ":pirate_flag:",
+    "SWGOH": "<https://swgoh.gg/p/972695926/>",
+    "UTC": "15:00"
+  },
+  {
     "Name": "Ethan",
     "Flag": ":flag_ca:",
     "SWGOH": "<https://swgoh.gg/p/833423514/>",
@@ -75,7 +81,7 @@
     "Name": "GrandMoff",
     "Flag": ":flag_ru:",
     "SWGOH": "<https://swgoh.gg/p/591836838/>",
-    "UTC": "14:00"
+    "UTC": "15:00"
   },
   {
     "Name": "Guigui",
@@ -102,12 +108,6 @@
     "UTC": "11:00"
   },
   {
-    "Name": "LordSithsSIDIUS",
-    "Flag": ":pirate_flag:",
-    "SWGOH": "<https://swgoh.gg/p/843141573/>",
-    "UTC": "08:00"
-  },
-  {
     "Name": "Maciej",
     "Flag": ":flag_pl:",
     "SWGOH": "<https://swgoh.gg/p/334194538/>",
@@ -126,6 +126,12 @@
     "UTC": "02:00"
   },
   {
+    "Name": "Puppeteer",
+    "Flag": ":pirate_flag:",
+    "SWGOH": "<https://swgoh.gg/p/843141573/>",
+    "UTC": "08:00"
+  },
+  {
     "Name": "Red1",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/945565584/>",
@@ -142,12 +148,6 @@
     "Flag": ":pirate_flag:",
     "SWGOH": "<https://swgoh.gg/p/137724599/>",
     "UTC": "10:00"
-  },
-  {
-    "Name": "Somebody",
-    "Flag": ":pirate_flag:",
-    "SWGOH": "<https://swgoh.gg/p/972695926/>",
-    "UTC": "15:00"
   },
   {
     "Name": "Son of Inox",
