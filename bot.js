@@ -147,9 +147,9 @@ async function sendMessage () {
     for (const mate of mates[i].mates) {
       fieldText += `${mate.flag} [${mate.name}](${mate.swgoh})\n`; // Discord automatically trims messages
     }
-    embed.addField(fieldName, fieldText, true);    
+    embed.addField(fieldName, fieldText, true);
   }
-  embed.setFooter('Last refresh', 'https://game-assets.swgoh.gg/tex.charui_chopper.png/');
+  embed.setFooter('Last refresh', 'https://game-assets.swgoh.gg/tex.charui_chopper.png');
   embed.setTimestamp();
   await message.edit({embed});
   console.log('Message send');
