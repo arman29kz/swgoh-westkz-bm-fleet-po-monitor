@@ -149,7 +149,7 @@ async function sendMessage () {
     }
     embed.addField(fieldName, fieldText, true);    
   }
-  embed.setFooter('Last refresh', 'https://swgoh.gg/game-asset/u/CHOPPERS3/');
+  embed.setFooter('Last refresh', 'https://swgoh.gg/characters/chopper/');
   embed.setTimestamp();
   await message.edit({embed});
   console.log('Message send');
