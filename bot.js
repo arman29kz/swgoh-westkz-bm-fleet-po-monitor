@@ -9,6 +9,7 @@ const prefix = "!";
 var writeChannel;
 var message;
 var mates = [];
+
 // Keeping the project "alive"
 app.get("/", (request, response) => {
   console.log(Date.now() + " Ping Received");
@@ -19,6 +20,7 @@ app.listen(process.env.PORT);
 setInterval(() => {
   http.get(`http://${process.env.appDomain}/`);
 }, 60000); // every 1 minute (60000)
+
 // Initialize the bot
 client.on("ready", async () => {
   client.user.setPresence({game: {name: "BrutalMagicianKZ's PO Monitor", type: 0}});
@@ -27,11 +29,12 @@ client.on("ready", async () => {
 })
 client.login(process.env.botToken);
 console.log("App restarted");
+
 // Parse a JSON data file
 let shardData = JSON.parse(fs.readFileSync("./shard-data.json", "utf8"));
-parseData();
-// Initial call
+parseData(); // Initial call
 main();
+
 // Below are the rest of the functions that make up the bot
 async function main () {
   try {
@@ -136,7 +139,7 @@ async function sendMessage () {
     embed.addField(fieldName, fieldText, true);
   }
   embed.setFooter('Last refresh', 'https://game-assets.swgoh.gg/tex.charui_chopper.png');
-  embed.setTimestamp();
+  embed.setTimestamp(toLocaleTimeString('en-GB'));
   await message.edit({embed});
   console.log('Message send');
 }
