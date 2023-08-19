@@ -139,11 +139,7 @@ async function sendMessage () {
     embed.addField(fieldName, fieldText, true);
   }
   embed.setFooter('Last refresh', 'https://game-assets.swgoh.gg/tex.charui_chopper.png');
-  embed.setTimestamp(toLocaleTimeString('en-GB', {
-      hour: 'numeric',
-      minute: 'numeric',
-      hour12: false
-    }));
+  embed.setTimestamp();
   await message.edit({embed});
   console.log('Message send');
 }
