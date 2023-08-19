@@ -12,7 +12,7 @@ var mates = [];
 
 // Keeping the project "alive"
 app.get("/", (request, response) => {
-  console.log(Date.now() + " Ping Received");
+  console.log(new Date().toISOString().replace("T", " ").substring(0, 19) + " Ping Received"); // console.log(Date.now() + " Ping Received");
   main(); // Subsequent call
   response.sendStatus(200);
 });
