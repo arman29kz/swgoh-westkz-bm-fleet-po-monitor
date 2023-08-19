@@ -12,7 +12,7 @@ var mates = [];
 
 // Keeping the project "alive"
 app.get("/", (request, response) => {
-  console.log(new Date().toISOString().replace("T", " ").substring(0, 19) + " Ping Received"); // console.log(Date.now() + " Ping Received");
+  console.log(new Date().toISOString().replace("T", " ").substring(0, 19) + " - Ping Received"); // console.log(Date.now() + " Ping Received");
   main(); // Subsequent call
   response.sendStatus(200);
 });
@@ -139,7 +139,7 @@ async function sendMessage () {
     embed.addField(fieldName, fieldText, true);
   }
   embed.setFooter('Last refresh', 'https://game-assets.swgoh.gg/tex.charui_chopper.png');
-  embed.setTimestamp(new Date().toLocaleString()); // embed.setTimestamp();
+  embed.setTimestamp();
   await message.edit({embed});
   console.log('Message send');
 }
